@@ -8,7 +8,7 @@ import Bordercallapsablecard from "./customui/bordercallapsablecard";
 
 const LandingPage = () => {
   return (
-    <div className="mx-auto flex-1 overflow-hidden">
+    <div className="mx-auto flex-1 overflow-hidden bg-black">
       <Header />
       <HeroSection
         buttonText={"Try Supabill today"}
