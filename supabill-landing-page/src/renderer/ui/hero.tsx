@@ -7,7 +7,7 @@ export default function HeroSection({
   primaryText,
   secondaryText,
   buttonText,
-}) {
+}: {primaryText: string, secondaryText: string, buttonText: string}) {
   return (
     <section className="flex flex-col relative mx-auto mt-24 max-w-[80rem] px-6 text-center md:px-8">
       <AnimatedText title={primaryText} />
