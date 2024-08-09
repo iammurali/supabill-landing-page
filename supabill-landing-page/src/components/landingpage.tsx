@@ -5,6 +5,7 @@ import HeroSection from "@/renderer/ui/hero";
 import { NeonGradientCardDemo } from "@/renderer/ui/NeonCard";
 import ProductImageSection from "@/renderer/ui/productImage";
 import Bordercallapsablecard from "./customui/bordercallapsablecard";
+import PricingCard from "./customui/pricingcard";
 
 const LandingPage = () => {
   return (
@@ -27,6 +28,8 @@ const LandingPage = () => {
         primaryText={"Billing So Simple, Competitors Are Jealous"}
       />
       <Bordercallapsablecard />
+      <PricingCard />
+      <div className="bg-black w-full h-[20vh]"></div>
     </div>
   );
 };
