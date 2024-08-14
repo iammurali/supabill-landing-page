@@ -18,7 +18,6 @@ const LandingPage = () => {
         }
         primaryText={"Simplify billing with Supabill sleek, easy, and painless"}
       />
-      {/* <ProductImageSection /> */}
       <NeonGradientCardDemo />
       <BillingCard
         buttonText={"Get Supabill"}

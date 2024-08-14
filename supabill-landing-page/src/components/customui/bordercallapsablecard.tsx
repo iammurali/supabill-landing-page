@@ -5,11 +5,11 @@ type Props = {};
 
 function Bordercallapsablecard({}: Props) {
   return (
-    <div className="flex my-24">
-      <div className="w-1/2 flex items-start justify-center">
+    <div className="flex flex-col md:flex-row my-24">
+      <div className="px-3 w-full md:w-1/2 flex items-start justify-center">
         <AccordionCustom />
       </div>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <img
           src="/reports-screen-shot.png"
           alt=""
